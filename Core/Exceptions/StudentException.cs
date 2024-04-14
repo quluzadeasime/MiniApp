@@ -10,6 +10,7 @@ namespace Core.Exceptions
     {
         public StudentException(string message) : base(message)
         {
+
         }
     }
 }

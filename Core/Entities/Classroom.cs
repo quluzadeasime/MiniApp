@@ -14,11 +14,11 @@ namespace Core.Entities
 {
     public class Classroom : Check
     {
-        private static int _id;
         private string _name;
         public Student[] Students;
         public int StudenLimitBack;
         public int StudenLimitFront;
+        public int Id { get; set; }
         public int Count
         {
             get
@@ -39,53 +39,56 @@ namespace Core.Entities
             }
         }
 
-
-        public int Id { get; set; }
         public Classroom()
         {
-            
-        }
-        public Classroom(string name, int frontCount, int backCount)
-        {
-            Name = name;
-            StudenLimitBack = backCount;
-            StudenLimitFront = frontCount;
             Students = new Student[0];
-            Id = ++_id;
         }
 
         public void AddStudent(Student student)
         {
-            StudentLimit(Students, StudenLimitFront, StudenLimitBack);
+            StudentLimit(StudenLimitBack, StudenLimitFront, Students);
             Array.Resize(ref Students, Students.Length + 1);
             Students[Students.Length - 1] = student;
+
+            if (student.Role == Role.Frontend) Console.WriteLine("New frontend student has been created!\n");
+            else Console.WriteLine("New backend student hass been created!\n");
         }
 
         public Student[] GetAllStudents()
         {
-            return Students; 
+            return Students;
         }
 
-        public Student[] RemoveStudent(int id)
+        public void RemoveStudent(int id)
         {
-            Student[] newStudents = { };
-            foreach (Student student in Students)
+            Student[] newStudents = new Student[0];
+            bool check = false;
+
+
+            for (int i = 0; i < Students.Length; i++)
             {
-                if(student.Id == id)
+                if (Students[i].Id == id)
                 {
+                    check = true;
                     continue;
                 }
                 else
                 {
                     Array.Resize(ref newStudents, newStudents.Length + 1);
-                    newStudents[newStudents.Length - 1] = student;
+                    newStudents[newStudents.Length - 1] = Students[i];
                 }
             }
-            if(Students.Length == newStudents.Length)
+
+            Students = newStudents;
+
+            if (!check)
             {
                 throw new StudentException("There is no student id in database!");
             }
-            return newStudents;
+            else
+            {
+                Console.WriteLine("Student hass been deleted!");
+            }
         }
 
         public Student GetStudentById(int id)
@@ -97,6 +100,7 @@ namespace Core.Entities
                     return student;
                 }
             }
+
             throw new StudentException("Student Not Found!!");
         }
 

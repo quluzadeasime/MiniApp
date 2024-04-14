@@ -33,16 +33,13 @@ namespace Core.Entities
                 }
             }
         }
+
         public Student()
         {
-            
-        }
-        public Student(string name,string surname)
-        {
-            Name = name;
-            Surname = surname;
             Id = ++_id;
+
         }
+
         public override string ToString()
         {
             return $"| Id: {Id} | Name: {Name} | Surname: {Surname} | Age: {Age} | Role: {Role} |";

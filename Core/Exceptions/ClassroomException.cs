@@ -11,7 +11,5 @@ namespace Core.Exceptions
         public ClassroomException(string message) : base(message) 
         {
         }
-    }
-    
-    
+    }    
 }
