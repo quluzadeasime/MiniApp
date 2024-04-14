@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|c:\\users\\asime\\desktop\\bb207task\\miniconsoleapp\\core\\entities\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|solutionrelative:core\\entities\\classroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|c:\\users\\asime\\desktop\\bb207task\\miniconsoleapp\\core\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|solutionrelative:core\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{669F0EC8-D8AD-41EC-8C3A-7B79F6677238}|MiniConsoleapp\\MiniConsoleapp.csproj|c:\\users\\asime\\desktop\\bb207task\\miniconsoleapp\\miniconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{669F0EC8-D8AD-41EC-8C3A-7B79F6677238}|MiniConsoleapp\\MiniConsoleapp.csproj|solutionrelative:miniconsoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|c:\\users\\asime\\desktop\\bb207task\\miniconsoleapp\\core\\helpers\\check.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|solutionrelative:core\\helpers\\check.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|c:\\users\\asime\\desktop\\bb207task\\miniconsoleapp\\core\\exceptions\\classroomexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|solutionrelative:core\\exceptions\\classroomexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|c:\\users\\asime\\desktop\\bb207task\\miniconsoleapp\\core\\exceptions\\studentexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|solutionrelative:core\\exceptions\\studentexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|c:\\users\\asime\\desktop\\bb207task\\miniconsoleapp\\core\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D27340D7-9F79-4D89-8C49-BE0AD713A5B8}|Core\\Core.csproj|solutionrelative:core\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentException.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Exceptions\\StudentException.cs",
+              "RelativeDocumentMoniker": "Core\\Exceptions\\StudentException.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Exceptions\\StudentException.cs",
+              "RelativeToolTip": "Core\\Exceptions\\StudentException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T09:52:55.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassroomException.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Exceptions\\ClassroomException.cs",
+              "RelativeDocumentMoniker": "Core\\Exceptions\\ClassroomException.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Exceptions\\ClassroomException.cs",
+              "RelativeToolTip": "Core\\Exceptions\\ClassroomException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T09:19:15.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "Core\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Enums\\Role.cs",
+              "RelativeToolTip": "Core\\Enums\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T06:24:27.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Entities\\Student.cs",
+              "RelativeToolTip": "Core\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:46:59.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Check.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Helpers\\Check.cs",
+              "RelativeDocumentMoniker": "Core\\Helpers\\Check.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Helpers\\Check.cs",
+              "RelativeToolTip": "Core\\Helpers\\Check.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAgwFYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:47:50.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\MiniConsoleapp\\Program.cs",
+              "RelativeDocumentMoniker": "MiniConsoleapp\\Program.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\MiniConsoleapp\\Program.cs",
+              "RelativeToolTip": "MiniConsoleapp\\Program.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAYwGIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:42:35.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Classroom.cs",
+              "DocumentMoniker": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Entities\\Classroom.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Classroom.cs",
+              "ToolTip": "C:\\Users\\Asime\\Desktop\\bb207task\\MiniConsoleapp\\Core\\Entities\\Classroom.cs",
+              "RelativeToolTip": "Core\\Entities\\Classroom.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T11:47:22.758Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
